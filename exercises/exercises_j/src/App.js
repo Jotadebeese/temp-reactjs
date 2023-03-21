@@ -1,10 +1,10 @@
 import React from "react"
-import SideEffects from "./SideEffects"
+import App2 from "./App2"
 
 export default function App() {
 
     // Side effects
     return (
-        <SideEffects />
+        <App2 />
     )
 }

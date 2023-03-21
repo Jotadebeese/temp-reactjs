@@ -1,10 +1,10 @@
 import React from "react"
-import Form from "./Form"
+import SideEffects from "./SideEffects"
 
 export default function App() {
-    const [messages, setMessages] = React.useState(["a"])
 
+    // Side effects
     return (
-        <Form />
+        <SideEffects />
     )
 }

@@ -63,3 +63,29 @@ main {
     background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
     cursor: pointer;
 }
+
+.meme {
+    position: relative;
+    text-align: center;
+    margin-top: 20PX;
+    color: rgb(245, 245, 245);
+}
+
+.meme-text {
+    position: absolute;
+    width: 100px;
+    word-wrap: break-word;
+    text-shadow: -2px 0px 3px black, 0 2px 3px black, 2px 0 3px black, 0 -2px 3px black;
+}
+
+.top {
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.bottom {
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+}
